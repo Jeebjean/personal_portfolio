@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px; 
+    height: auto;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 81%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    
+}
+.big{
+    width: 70%;
+    margin: 0;
+
+}
+
+.part1{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.part2{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.first{
+    width: 65%;
+    background-image:url("images/bg-pattern-quotation.svg") ;
+    background-color: hsl(263, 55%, 52%);
+    background-repeat: no-repeat;
+    background-position: 400px 0px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.second{
+    width: 30%;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.third{
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.fourth{
+    width: 65%;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.fifth{
+    width: 25%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    margin-left: 40px;
+}
+
+.third .para2, .fifth .para2{
+    color:rgb(61, 59, 59) ;
+    font-size: 13px;
+    padding-right: 9px;
+    line-height: 1.5;
+}
+
+.third .para1 , .fifth .para1,.fifth .top .name h2,.third .top .name h2 {
+    color: black;
+}
+
+.fifth .top .name p,.third .top .name p{
+    color: rgb(61, 59, 59);
+}
+
+.top {
+    
+    overflow: auto;
+}
+
+.top img{
+    width: 13%;
+    border-radius: 25px;
+    border: 2px solid rgb(255, 255, 255, .5);
+    float: left;
+    margin-right: 10px;
+}
+
+.name p{
+    color:rgb(255, 255, 255, .5) ;
+}
+
+.name h2{
+    color: hsl(0, 0%, 81%);
+}
+
+.para1{
+    margin: 15px 0;
+    font-size: 18px;
+    color: hsl(0, 0%, 81%);
+    
+}
+
+.para2{
+    color:rgb(255, 255, 255, .5) ;
+    font-size: 13px;
+    padding-right: 9px;
+    line-height: 1.5;
+}
+
+.first img, .fourth img{
+    width: 6%;
+}

@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.first{
+    width: 100%;
+    background-image: url("images/bg-hero-desktop.svg");
+    background-color:hsl(193, 100%, 96%) ;
+    background-repeat: no-repeat;
+    padding: 50px 90px;
+}
+
+.try{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.try img{
+    width: 15%;
+}
+
+.try button{
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 1px 3px 4px rgb(71, 69, 69);
+    cursor: pointer;
+}
+
+.community{
+    display: flex;
+    justify-content: space-between;
+}
+
+.community img{
+    width: 55%;
+}
+
+.para{
+    width: 40%;  
+    padding-right: 50px; 
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.para h1{
+    font-size: 35px;
+    padding-right: 80px;
+    margin-bottom: 30px;
+}
+
+.para p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    
+}
+
+.para button{
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    background-color: hsl(322, 100%, 66%) ;
+    font-weight: bold;
+    color: white;
+    box-shadow: 1px 3px 4px rgb(71, 69, 69);
+    cursor: pointer;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 90px;
+    margin: 50px 0;
+}
+
+.second{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 20px 10px 20px 100px;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 2px 2px  hsl(208, 15%, 81%);
+
+}
+
+.second img{
+    width: 35%;
+}
+
+.second div{
+    width: 40%;
+    padding: 20px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.second div p{
+    margin-top: 20px;
+    color: hsl(208, 11%, 55%);
+}
+
+.third{
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px 2px  hsl(208, 15%, 81%);
+    padding: 30px 40px ;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.third button{
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    background-color: hsl(322, 100%, 66%) ;
+    font-weight: bold;
+    color: white;
+    box-shadow: 1px 3px 4px rgb(71, 69, 69);
+    cursor: pointer;
+    margin-top: 30px;
+}

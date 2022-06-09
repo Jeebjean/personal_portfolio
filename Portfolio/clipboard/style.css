@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('images/bg-header-desktop.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 14px;
+    line-height: 2;
+
+}
+
+.first{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       width: 40%;
+}
+
+.first img{
+    margin: 60px;
+}
+
+.first p{
+    margin: 30px 10px;
+}
+
+.button{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button #butt1{
+    width: 40%;
+    padding: 13px;
+    background-color: hsl(171, 57%, 62%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    border: none; 
+    cursor: pointer;
+    box-shadow: 0px -2px 1px rgb(5, 121, 5) inset;
+}
+
+.button #butt2{
+    width: 40%;
+    padding: 13px;
+    background-color: hsl(233, 100%, 69%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: white;
+    font-size: 15px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px -2px 1px hsl(233, 100%, 50%) inset;
+}
+
+#butt2:hover{
+    color: hsl(233, 100%, 69%);
+    background-color: white;
+    border: 1px solid hsl(233, 100%, 69%);
+}
+
+
+#butt1:hover{
+    color: hsl(171, 57%, 62%);
+    background-color: white;
+    border: 1px solid hsl(171, 57%, 62%);
+}
+
+.para{
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    margin: 90px 0 30px;
+    line-height: 2;
+}
+
+.para h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.second{
+    width: 100%;
+    display: flex;
+}
+
+.second img{
+    width: 50%;
+    margin-right: 60px;
+}
+
+.details{
+    width: 25%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px 30px 0 30px;
+    margin-top: 10px;
+    line-height: 2;
+
+}
+
+.third{
+    width: 50%;
+    margin: 90px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.third img{
+    margin: 80px 0;
+}
+
+.third div{
+    padding: 0 80px;
+}
+
+.fourth{
+    width: 78%;
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    
+}
+
+.fourth div{
+    width: 35%;
+    text-align: center;
+    padding: 10px 35px;
+}
+
+.fiveth{
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+
+.fiveth img{
+    width: 10%;
+    height: 35px;
+}
+
+.sixth{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+}
+
+.sixth .button{
+    width: 80%;
+    margin: 30px auto;
+}
+
+footer{
+    width: 100%;
+    padding: 30px 50px 30px 80px ;
+    background-color: rgb(231, 229, 229);
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img{
+    width: 5%;
+}
+
+.medias{
+    width: 400px;
+    height: 25px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.twitter{
+    margin: 0 30px;
+}
