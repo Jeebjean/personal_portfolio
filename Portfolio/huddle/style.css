@@ -12,6 +12,15 @@ body{
     /* font-family: 'Poppins', sans-serif; */
 }
 
+.principal{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .first{
     width: 100%;
     background-image: url("images/bg-hero-desktop.svg");
@@ -143,3 +152,29 @@ body{
     cursor: pointer;
     margin-top: 30px;
 }
+
+.media{
+    display: none;
+  }
+
+  @media (max-width: 991.98px) {
+  .principal{
+    display: none;
+  }
+
+  body{
+      height: 100vh;
+  }
+
+  .media{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      padding: 25px;
+      font-size: 20px;
+      border-radius: 10px;
+      box-shadow: 5px 10px 28px hsl(234, 12%, 34%);
+  }
+}
+

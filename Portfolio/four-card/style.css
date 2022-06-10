@@ -213,7 +213,7 @@ body{
 
 /* tablet media quary */
 
-@media screen and (max-width: 1424px){
+/* @media screen and (max-width: 1424px){
 
     .second{
         display: flex; 
@@ -230,14 +230,40 @@ body{
     .tab img{
     width: 20px;
 }
-}
+} */
 
 /* Mobile Design */
 
-@media screen and (max-width: 500px){
+/* @media screen and (max-width: 500px){
   
 
     .tab{
         width: 70%;
     }
-}
+} */
+
+.media{
+    display: none;
+  }
+
+@media (max-width: 991.98px) {
+    .principal{
+      display: none;
+    }
+
+    body{
+        height: 100vh;
+    }
+
+    .media{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        padding: 25px;
+        font-size: 20px;
+        border-radius: 10px;
+        box-shadow: 5px 10px 28px hsl(234, 12%, 34%);
+        margin-top: 10%;
+    }
+  }

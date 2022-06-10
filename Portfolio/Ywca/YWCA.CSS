@@ -419,10 +419,32 @@ hr{
     margin: 15px;
 }
 
-/* Media Query for Mobile Devices */
-@media (max-width: 480px) {
-    
+.media{
+    display: none;
+  }
+
+  @media (max-width: 991.98px) {
+  .main-scroll-container{
+    display: none;
+  }
+
+  body{
+      height: 100vh;
+  }
+
+  .media{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      padding: 25px;
+      font-size: 20px;
+      border-radius: 10px;
+      box-shadow: 5px 10px 28px hsl(234, 12%, 34%);
+      margin-top: 20%;
+  }
 }
+
 
 
 

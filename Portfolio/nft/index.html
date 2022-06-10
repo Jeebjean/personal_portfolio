@@ -94,7 +94,39 @@
       color:hsl(245, 75%, 52%) ;
     }
 
+    .media{
+      display: none;
+    }
+
+    @media (max-width: 991.98px) {
+    #main{
+      display: none;
+    }
+
+    body{
+        height: 100vh;
+    }
+
+    .media{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        padding: 25px;
+        font-size: 20px;
+        border-radius: 10px;
+        box-shadow: 5px 10px 28px hsl(234, 12%, 34%);
+        margin: 30%;
+    }
+  }
+
+
+
+
   </style>
+</head>
+<body>
+
   <div id="main">
     <img id="img1" src="images/illustration-hero.svg" alt="My illustration-hero">
 
@@ -126,8 +158,8 @@
     
     <h3>Cancel Order</h3>
   </div>
-</head>
-<body>
+
+  <div class="media">Visit this page on your computer :)</div>
 
 
 
