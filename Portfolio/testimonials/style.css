@@ -133,4 +133,11 @@ body{
     body {
       display: none;
     }
+
+    body::after{
+        content: "Visit this page on your computer :)";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
   }
