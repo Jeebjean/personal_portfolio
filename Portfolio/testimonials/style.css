@@ -18,9 +18,7 @@ body{
     
 }
 
-.main{
-    display: flex;
-}
+
 .big{
     width: 70%;
     margin: 0;
@@ -138,11 +136,16 @@ body{
     display: none;
 }
 
+.principal{
+    display: flex;
+}
+
 @media (max-width: 991.98px) {
     .principal{
       display: none;
     }
 
+    
     .media{
         display: flex;
         justify-content: center;
