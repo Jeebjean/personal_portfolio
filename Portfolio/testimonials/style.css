@@ -128,3 +128,9 @@ body{
 .first img, .fourth img{
     width: 6%;
 }
+
+@media (max-width: 991.98px) {
+    body {
+      display: none;
+    }
+  }
